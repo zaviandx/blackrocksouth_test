@@ -1,0 +1,14 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+  .form-field {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-error {
+    color: red;
+    font-size: 13px;
+  }
+}
